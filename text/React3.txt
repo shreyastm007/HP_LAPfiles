@@ -1,0 +1,93 @@
+
+
+Explain Switch component of react-router-dom with an example
+
+The <Switch /> component will only render the first route that matches/includes the path.
+Once it finds the first route that matches the path,
+it will not look for any other matches.
+Not only that, it allows for nested routes to work properly, 
+which is something that <Router /> will not be able to handle.
+
+ex:-  ReactDOM.render((
+       <Switch>
+         <Route exact path="/" component={Home} />
+         <Route path="/login" component={Login} />
+         <Route path="/explore" component={Explore} />
+       </Switch>),
+       document.getElementById('root')
+   );
+
+
+How to run react app in different port ? i.e., in specific port number
+
+if we want to run react app in port no. 3006
+"start": "set PORT=3006 && react-scripts start"
+
+
+Middleware allows for side effects to be run without blocking state updates. 
+We can run side effects (like API requests) in response to a 
+specific action, or in response to every action that is dispatched (like logging). 
+There can be numerous middleware that an action runs through before ending in a reducer.
+
+Redux Middleware allows you to intercept every action sent to 
+the reducer so you can make changes to the action or cancel the action. 
+
+
+5.Difference b/w flux and redux
+
+                      flux                                                                                     Redux
+Application architecture designed to build client-side web apps.                                 Open-source JavaScript library used for creating the UI
+                                                                                                 It generally works with React & angular development.
+
+Follows the unidirectional flow                                                                  Follows the unidirectional flow
+
+Includes multiple stores                                                                         Includes single store
+
+
+Store handles all logic                                                                          Reducer handles all logic
+
+Ensures simple debugging with the dispatcher                                                     Single store makes debugging lot easier
+
+
+                   mobx                                                                                          redux
+
+ It is a testing library to make simple state management with the help of TFRP.	            It is the Javascript library for managing the application state.
+
+In Mobx, there is more than one store for data storage.	                                    In Redux, there is only one large store for data storage.
+
+Mobx is mainly used for small and simple applications	                                    Redux is mainly used for complex and large applications. 
+
+Mobx is less scalable comparatively.	                                                    Redux is mainly used for scalable applications 
+
+Mobx gives good performance	                                                            Redux is not much efficient.
+
+ 
+ 
+Redux Work-Flow
+===============
+
+Redux follows the unidirectional data flow. It means that your application
+ data will follow in one-way binding data flow. 
+
+
+An action is dispatched when a user interacts with the application.
+
+The root reducer function is called with the current state and 
+the dispatched action. The root reducer may divide the task among 
+smaller reducer functions, which ultimately returns a new state.
+
+The store notifies the view by executing their callback functions.
+
+The view can retrieve updated state and re-render again.
+
+
+
+
+ 
+
+ 
+
+                 
+ 
+
+·  

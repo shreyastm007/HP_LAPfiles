@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+
+
+
+1==>Formik is designed to manage forms with complex validation with ease. 
+    Formik supports synchronous and asynchronous form-level and field-level validation. 
+    Furthermore, it comes with baked-in support for schema-based form-level validation through Yup. 
+
+    Validation-->Form validation in React allows an error message to be displayed if the user has not correctly filled out the form with the expected type of input.
+
+2==> the dev server used in React project
+
+    Webpack dev server 
+    it is a separate package that needs to get install via NPM. 
+    Webpack dev server should ONLY be used for development. 
+
+3==>How to create axios instance
+
+    Instal axios using npm i axios --save-dev command
+    syntax:const variable_name=axios.create({object})
+   
+    example:-const instance = axios.create({
+              baseURL: 'https://some-domain.com/api/',
+              timeout: 1000,
+              headers: {'X-Custom-Header': 'foobar'}
+              });
+
+
+4==>Fragments:-
+    Fragment is a common pattern in React is for a component to return multiple elements.
+    Fragments let you group a list of children without adding extra nodes to the DOM.
+
+    ex: <React.Fragment>
+        <ChildA />
+        <ChildB />
+        <ChildC />
+        </React.Fragment>
+
+
+5==>ErrorBoundary
+   Error boundaries are React components that catch JavaScript errors anywhere in their child component tree
+   log those errors, and display a fallback UI instead of the component tree that crashed.
+   Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
+   So error boundaries only catch errors that occur in a lifecycle method, render method, and inside Hooks like useEffect.
+
+    to handle errors in react
+    A static method called getDerivedStateFromError , which is used to update the error boundary's state.
+    A componentDidCatch lifecycle method for performing operations when our error boundaries catch an error, such as logging to an error logging service. 
+
+
+6==>What are Limitations of ErrorBoundary ? 
+    Error boundaries do not catch errors for:
+        Event handlers 	
+	Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+	Server side rendering
+	Errors thrown in the error boundary itself (rather than its children)
+
+
+7==>Error boundaries catch errors during 
+    rendering, 
+    in lifecycle methods, 
+    and in constructors of the whole tree below them.
+
+
+ASYNC AWAIT
+An async function is a function declared with the async keyword, and the await keyword is permitted within it.
+The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style

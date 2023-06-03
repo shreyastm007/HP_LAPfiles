@@ -1,0 +1,14 @@
+﻿@*----using viewdata------*@
+
+<h1> @ViewData["Title"]</h1>
+@{
+    var student = ViewData["student"] as EmptyPractise1.Modal.Student;
+}
+
+<h3> AGE: @student.Age</h3>
+<h3> Id: @student.id</h3>
+<h3> Name: @student.Name</h3>
+<h3> College Name: @student.CollegeName</h3>
+<h3> Branch: @student.Branch</h3>
+<h3> Name: @student.Address</h3>
+<h3> Name: @student.CGPA</h3>

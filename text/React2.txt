@@ -1,0 +1,59 @@
+1==> Props are immutable
+     state are mutable
+  
+     Props are arguments passed into React components.
+     states are special type of objects in React components.
+
+3==>setState-->setState() schedules an update to a component’s state object.
+    When state changes, the component responds by re-rendering.
+
+
+2==>
+
+4==>event listener with class component
+
+   class Welcome extends React.Component {
+    render() {
+        console.log(this.props);
+        let firstName = "Avi";
+        return (
+            <div>
+                <h1>
+                    Welcome {firstName} and {this.props.secondName}
+                </h1>
+                <button onClick={this.getData()}>click</button>
+                <button onClick={() => {
+                    this.getName();
+                }}>get name</button>
+                <button onClick={this.greet.bind(this)}>greet</button>
+            </div>
+        );
+    }
+    getData() {
+        console.log("Get data executed");
+        console.log(this);
+    }
+    greet() {
+        console.log("greet method executed");
+        console.log(this);
+    }
+    getName() {
+        console.log(this.props.children);
+    }
+}
+
+ReactDOM.render(<Welcome secondName="Ram"> <h1>hello</h1></Welcome>,
+    document.getElementById("container")
+);
+
+
+
+ASSIGNMENT-4
+
+   localStorage is one of the two mechanisms of a browser’s web storage. 
+   It allows users to save data as key-value pairs in the browser for later use.
+
+   localStorage does not clear data when the browser closes. 
+   This makes it ideal for persisting data not bound to the current browser tab.
+
+

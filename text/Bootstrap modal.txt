@@ -1,0 +1,36 @@
+BOOTSTRAP MODAL
+
+The Modal plugin is a dialog box/popup window that is displayed on top of the current page.
+
+The BOOTSTRAP modal will follow severel steps to create
+
+1.Trigger part
+2.Modal part
+3.Modal Content Part
+
+1.Trigger part
+  To trigger the modal window, we need to use a button or a link.
+  data-toggle="modal" opens the modal window
+  data-target="#myModal" points to the id of the modal
+
+2.Modal part
+  The .modal class identifies the content of <div> as a modal and brings focus to it.
+
+  The .fade class adds a transition effect which fades the modal in and out. Remove this class if we dont want this effect.
+
+  The attribute role="dialog" improves accessibility for people using screen readers.
+
+  The .modal-dialog class sets the proper width and margin of the modal. 
+
+3.Modal Content Part
+  The .modal-header class is used to define the style for the header of the modal. 
+ 
+  The .modal-body class is used to define the style for the body of the modal.we can add any HTML markup here; paragraphs, images, videos, etc.
+
+  The .modal-footer class is used to define the style for the footer of the modal. this area is right aligned by default.
+
+
+Modal Size
+
+We can change the size of the modal by adding the .modal-sm class for small modals 
+                                                  .modal-lg class for large modals.

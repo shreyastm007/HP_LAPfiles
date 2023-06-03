@@ -1,0 +1,16 @@
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ConsoleAppCoupling.exe
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ConsoleAppCoupling.deps.json
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ConsoleAppCoupling.runtimeconfig.json
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ConsoleAppCoupling.runtimeconfig.dev.json
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ConsoleAppCoupling.dll
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ref\ConsoleAppCoupling.dll
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\bin\Debug\net5.0\ConsoleAppCoupling.pdb
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.csproj.AssemblyReference.cache
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.AssemblyInfoInputs.cache
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.AssemblyInfo.cs
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.csproj.CoreCompileInputs.cache
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.dll
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ref\ConsoleAppCoupling.dll
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.pdb
+C:\Users\107061\Desktop\.NET\ConsoleAppCoupling\ConsoleAppCoupling\obj\Debug\net5.0\ConsoleAppCoupling.genruntimeconfig.cache

@@ -1,0 +1,68 @@
+Difficulty in switching to work with reducers: – To be able to work with redux, one needs to care about functional programming principles 
+and always return a new value based on previous app state.
+ Sometimes this could be easy such as handling simple string or objects or simple array operations but as the complexity of task increases,
+ the better idea would probably be to use Immutable.json from the similar library.
+
+Don’t Repeat Yourself principle: – Working with Redux requires keeping some conventions,
+ such as creating actions types or action creators and also reducers.
+ For similar logic sake such as CRUD operations, Redux code may actually look very similar.
+ Adding small functionality in such cases will need adding a lot of redux logic and tests cases.
+ Thus, a better idea would be to think about refactoring or following a DRY rule.
+
+
+Care about performances: – In the end, what really matters is performance. 
+Developers usually prefer to have is a single source of truth which is not only easy in maintenance but also debug and test, and hence redux does not suit that.
+ In Redux, even a small change can trigger changes in the DOM structure.
+
+Even a minor change in Redux triggers the DOM restructuring process. Developers do not favor this as it is time-consuming and 
+can adversely affect performance.
+
+
+1. MobX
+This is a new library which provides a lot of solutions for above-mentioned problems. 
+It works on 3 points and they are state, derivations, and actions. With MobX, 
+synchronization between models and UI can be done automatically.
+ With MobX, one can use OOP and some methods directly on models’ item. 
+
+GraphQL
+2. GraphQL
+Relay & GraphQL stack is actually comparatively old, but not as popular as Redux. 
+It is developed by Facebook
+ There are many unique benefitsGraphQL. The biggest among them is that there is
+ no need to remember from frontend perspective about how to fetch data to get the required response.
+
+ Jumpsuit
+This is a solution usually for someone, who does not want to use MobX
+ A jumpsuit is a framework which is based on Redux and it makes the flow more automatic.
+ For someone who does not like to build an application from scratch (which means adding and configuring many packages), then Jumpsuit is suitable for them.
+ It gives a simplified API layer for both React and Redux.
+
+
+conventional redux.js
+4. Helpers/generators with conventional redux.js
+One of the biggest problems that can be recognized with Redux app is that it has lots of code duplications i.e.
+ it does not follow DRY principle. Conventional-redux.js is the approach to follow in this regard to simplify your workflow.
+
+Jumpsuit, Conventional-redux.js, and many other such tools focus to improve Redux workflow. These are preferred choice for those who are familiar with Redux
+ and understand its ins and outs., 
+
+
+
+#4: Recoil
+Recoil is a new state management offering from Facebook, and is still being developed actively. It is developed specifically for React, 
+and makes creating shared state a breeze.
+
+Each piece of shared state is called an atom, and atoms can be combined with selectors that only recompute whenever an atom changes. 
+Asynchronicity is built in, so any state update can be dependent on server communication or stuff happening in web workers.
+ And you can structure your atoms in any data structure you want (trees, graphs, you name it). In other words - Recoil is powerful!
+
+The documentation is great, and the API is starting to become really stable. If you require really performant shared state
+ in your application, this is definitely a great tool to reach for.
+
+
+What is Hookstate?
+Easy to Use
+Concise, flexible API. Very easy to learn. 
+Incredibly Fast
+Incredible performance based on unique method for tracking of used/rendered and updated state segments.
+ Ideal solution for huge states and very frequent updates.

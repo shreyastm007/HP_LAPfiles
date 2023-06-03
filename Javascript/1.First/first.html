@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        console.log("Hai")
+        var a =20;
+        var b = 10;
+               console.log(a+b);
+    </script>
+</head>
+<body>
+
+    <form action="">
+        <label for="">Email-id</label>
+        <input type="email"  id="email"><br>
+        <span></span><br>
+        <label for="">Password</label>
+        <input type="password" id="password"><br>
+        <span></span>
+    </form>
+    
+
+    <script>
+        var str = "Shreyas";
+        var a = null;
+        var b;
+        console.log(a);
+        console.log(b);
+        console.log(str);
+        console.log(typeof(str));
+        console.log(typeof(a));
+        console.log(typeof(b));
+        var bool = true;
+        console.log(typeof(bool));
+
+        const email= document.getElementById('email')
+        const pass = document.getElementById('password')
+        const spanElement = document.getElementsByTagName('span')
+        const emailV = "chethan18@gmail.com"
+        const passwordV = '123456789'
+       
+        email.onkeyup = function(){
+            if(email.value === emailV){
+                spanElement[0].innerHTML = 'Valid email'
+                spanElement[0].style.color = 'blue'
+            }else{
+                spanElement[0].innerHTML = 'Invalid email'
+                spanElement[0].style.color ='black'
+            }
+        }
+        pass.onkeyup = function(){
+            if(pass.value === passwordV){
+                spanElement[1].innerHTML = 'Valid email'
+                spanElement[1].style.color = 'green'
+            }else{
+                spanElement[1].innerHTML = 'Invalid email'
+                spanElement[1].style.color ='red'
+            }
+        }
+
+    </script>
+    <script>
+        var a = 24;
+        console.log(a);
+    </script>
+</body>
+</html>

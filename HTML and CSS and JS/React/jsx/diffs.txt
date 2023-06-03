@@ -1,0 +1,39 @@
+** React stores a copy of Browser DOM which is called Virtual DOM.
+This “virtual” representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
+
+** When we make changes or add data, React creates a new Virtual DOM and compares it with the previous one.
+This comparison is done by Diffing Algorithm.
+
+** With the help of this Algorithm React figures out which components in the UI needs to be updated. 
+This process is called diffing. The algorithm that is used for the diffing process is called as the diffing algorithm. 
+Once React knows which components has been updated, then it replaces the original DOM nodes with the updated DOM node.
+
+
+ex:initial dom
+
+<section>
+         <div>
+               <h1>Hello React</h1>
+         </div>
+         <div>
+               <h1>Hello React 2</h1>
+         </div>
+</section>
+
+
+
+Updated DOM
+
+<section>
+         <div>
+               <h1>Hello React</h1>
+         </div>
+         <div>
+               <h1>Hello React 5</h1>
+         </div>
+</section>
+
+
+** Now here when there is update in the UI then react compares the new virtual DOM with the pre-updated virtual DOM and points out that in the second <div> the content has been changed 
+so it only updates the content of the second div in the real DOM.
+Like this diffing algorithm will work.

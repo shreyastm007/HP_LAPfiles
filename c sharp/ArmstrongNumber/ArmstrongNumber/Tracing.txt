@@ -1,0 +1,46 @@
+﻿153= 1^3 + 5^3 + 3^3
+
+n=153
+m=153
+
+while(153>0)
+{
+r=153%10 
+//remainder is 3
+
+sum=0+(3*3*3)
+//sum is 27
+
+n=153/10
+//n is 15
+
+}
+
+while(15>0)
+{
+r=15%10 
+//remainder is 5
+
+sum=27+(5*5*5)
+//sum is 152
+
+n=15/10
+//n is 1
+
+}
+
+while(1>0)
+{
+r=1%10 
+//remainder is 1
+
+sum=152+(1)
+//sum is 153
+
+n=1/10
+//n is 0
+
+}
+
+m==sum
+hence armstrong

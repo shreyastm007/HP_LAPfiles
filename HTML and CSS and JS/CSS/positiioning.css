@@ -1,0 +1,33 @@
+.navbar{
+    overflow: hidden;
+    background-color: brown;
+    display: flex;
+
+}
+nav {
+
+    position: sticky;
+    top: 5px;
+}
+.navbar a{
+    float: left;
+    color:aqua;
+    text-align: center;
+    padding: 20px 16;
+    text-decoration: none;
+    font-size: 17px;
+    cursor:pointer;
+    margin-left:20px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a:hover{
+    color:blue;
+    background-color:red ;
+}
+

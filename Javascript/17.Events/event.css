@@ -1,0 +1,14 @@
+.test{
+    
+    width: 100%;
+    color: brown;
+}
+
+.test1{
+    background-color: bisque;
+    
+    font-style: oblique;
+}
+.test2{
+    visibility: hidden;
+}

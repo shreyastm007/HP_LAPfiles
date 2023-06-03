@@ -1,0 +1,83 @@
+1-->JavaScript was invented by Brendan Eich in 1995. 
+    Although the new language and its interpreter implementation were called LiveScript when first shipped as part of a Navigator beta in September 1995 
+    the name was changed to JavaScript for the official release in December.
+    It is created in 10 days.
+
+
+    JavaScript is a programming language used primarily by Web browsers to 
+create a dynamic and interactive experience for the user.
+    JavaScript is known as a client-side scripting language. 
+    Most Web applications, such as a search engine, work because of an 
+interaction between the user's device (e.g. computer) and a remote server. 
+    The software on the remote server sends information to the client 
+(i.e. the user's machine) and the software on the client side reads the 
+information and renders a Web page on screen.
+
+    
+    1.Light weight
+    2.Interpreted coding langage
+    3.Synchronous
+    4.Single threaded coding language
+
+
+2-->Chakra:Microsoft Edge
+    SpiderMonkey-Firefox
+    V8engine-Chrome
+    Safari-Javascript core
+    Tamarin-Adobe Flash
+    Nashorn: A JavaScript engine used in Oracle Java Development Kit (JDK)
+    Hermes: developed by Facebook for React Native mobile apps
+    Linear B: The ECMAScript engine of the Opera web browser versions 7.0 to 9.50
+    Rhino: One of several JavaScript engines from Mozilla.
+    Carakan: A JavaScript engine developed by Opera Software ASA.
+
+3-->A JavaScript engine is a software component that executes JavaScript code.
+     A JavaScript engine can be implemented as a standard interpreter, or just-in-time compiler that compiles JavaScript to bytecode in some form.
+
+4-->JavaScript is a general-purpose scripting language that conforms to the ECMAScript specification. 
+    The ECMAScript specification is a blueprint for creating a scripting language. JavaScript is an implementation of that blueprint. 
+    On the whole, JavaScript implements the ECMAScript specification as described in ECMA-262.
+
+
+5-->ECMA-It is an organisation -European Computer Manufacturer's Association.
+    ECMAScript is a Standard for scripting languages such as JavaScript, JScript, etc. It is a trademark scripting language specification.
+
+6-->There are 2 data types in JS.
+    1.Primitive Data Type
+    2.Reference Data Type
+
+1.Primitive Data Type-->String-"Hello World"
+                        Number-3,3.2
+                        Boolian-True,False
+                        Undefined
+                        Null
+2.Reference Data Type-->Objects-Objects are the collection of key's and value pairs.
+                        var obj={
+                                  name:Akshata
+                                  age:22
+                                  address:Mangalore
+                                 }
+
+9-->undefined -is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything. 
+    null - is a variable that is defined but is missing a value.
+
+7-->Without using new keyword
+      var obj={
+                 name:Akshata,
+                 address:Mangalore,
+                 age:22,
+                 phno:9164559711
+                 designation:Trainee Enginner;
+               }
+      console.log(obj)
+
+8-->With using new keyword
+      var obj=new obj
+      obj1.name:Akshata,
+      obj1.address:Mangalore,
+      obj1.age:22,
+      obj1.phno:9164559711
+      obj1.designation:Trainee Enginner;
+      console.log(obj1)
+         
+

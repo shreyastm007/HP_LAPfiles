@@ -1,0 +1,5 @@
+PROBLEMS WITH VAR KEYWORD
+
+if a variable is defined in a loop or in an if statement it can be accessed outside the block and redefine it.
+ that may lead to some error in the program. 
+because of redeclaring variable, In  very large code we cant be able to find the bug and confusing.

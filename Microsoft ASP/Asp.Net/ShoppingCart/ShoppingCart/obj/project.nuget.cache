@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "aiNFyDQincGclygX18ho9QZXc5J035nEwqDY/EaLRrSzQRmygr7nAgu/fvwN/MuzS1wH6tbvE1XYTip5wDeLPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\107061\\Desktop\\.NET\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\107061\\.nuget\\packages\\mailchimp.net.v3\\5.3.1\\mailchimp.net.v3.5.3.1.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.http\\3.1.8\\microsoft.extensions.http.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.logging\\3.1.8\\microsoft.extensions.logging.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\107061\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,44 @@
+Assignment 1
+
+REACT JS
+
+1==>React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+    React is a JavaScript library for building user interfaces.
+    React is used to build single-page applications.
+    React allows us to create reusable UI components.
+
+2==>why react??
+    react is a single page application.
+     its potential to reuse components.
+
+3==>diff b/w framework and lib
+    Framework is collection of one or more files which does a specific job
+    Library is subset of framework,it can only handle a specific subtask.
+
+4==>React-React is a JavaScript library for building user interfaces. It uses a declarative, 
+component-based paradigm and aims to be both efficient and flexible.
+    ReactDOM-React package for working with the DOM.
+    By using ReactDOM.render() it will render the data to the DOM.
+
+5==>how to create react elements
+    let variable_name=React.createElement("element",null,"data");
+    example:-let reactElement=React.createElemnt("h1",null,"hello");
+    null can be a object.
+
+6==>VDOM- The virtual DOM (VDOM) is a programming concept where an ideal, or
+ “virtual”, representation of a UI is kept in memory and synced with the “real” DOM 
+by a library such as ReactDOM. This process is called reconciliation.
+
+7==>diff b/w REALDOM AND VDOM
+    In React, for every DOM object, there is a corresponding “virtual DOM object.”
+    A virtual DOM object is a representation of a DOM object, like a lightweight copy. 
+    A virtual DOM object has the same properties as a real DOM object,
+ but it lacks the real thing's power to directly change what's on the screen.
+    Manipulating the DOM is slow. 
+    Manipulating the virtual DOM is much faster, because we will make changes in the copy of realDOM.
+
+8==>Single page App: the browser will only rerender the content without refreshing the website.
+
+9==>BABEL->Babel converts the JSX code to javascript code
+            The browser cannot understand the jsx code, 
+babel will convert the jsx code into browser understandable code.

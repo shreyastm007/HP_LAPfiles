@@ -1,0 +1,32 @@
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\CleanCode.exe
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\CleanCode.deps.json
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\CleanCode.runtimeconfig.json
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\CleanCode.runtimeconfig.dev.json
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\CleanCode.dll
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\ref\CleanCode.dll
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\bin\Debug\net5.0\CleanCode.pdb
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.csproj.AssemblyReference.cache
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.AssemblyInfoInputs.cache
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.AssemblyInfo.cs
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.csproj.CoreCompileInputs.cache
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.dll
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\ref\CleanCode.dll
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.pdb
+C:\Users\107061\Desktop\.NET\CleanCode\CleanCode\obj\Debug\net5.0\CleanCode.genruntimeconfig.cache
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\CleanCode.exe
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\CleanCode.deps.json
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\CleanCode.runtimeconfig.json
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\CleanCode.runtimeconfig.dev.json
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\CleanCode.dll
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\ref\CleanCode.dll
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\bin\Debug\net5.0\CleanCode.pdb
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.csproj.AssemblyReference.cache
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.AssemblyInfoInputs.cache
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.AssemblyInfo.cs
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.csproj.CoreCompileInputs.cache
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.dll
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\ref\CleanCode.dll
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.pdb
+C:\Users\107061\Desktop\.NET\DATE AND TIME\CleanCode\obj\Debug\net5.0\CleanCode.genruntimeconfig.cache

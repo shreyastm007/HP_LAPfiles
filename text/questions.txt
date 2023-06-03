@@ -1,0 +1,37 @@
+1. How to create custom hooks ?
+ custom React Hooks are just Javascript functions, we can actually use other hooks inside them. 
+When you have component logic that needs to be used by multiple components, 
+we can extract that logic to a custom Hook.
+
+
+2. What is render prop ?
+The term “render prop” refers to a technique for sharing code between 
+React components using a prop whose value is a function.
+However, developers can stop using render props because of custom Hooks,
+
+
+3. Difference b/w useState and useReducer ? When to use which, explain ?
+
+With useState we can handle only one or two-state transitions,
+ but with useReducer, we can manage many state transitions. 
+You can pass dispatch down instead of callbacks.
+ We could create multiple state Hooks to track individual values.
+ The useReducer Hook returns the current state and a dispatch method.
+useState is mostly used when types of states are number, boolean, and string. 
+useReducer is used when types of states are objects ad arrays.
+
+
+4. Explain jwt with an example ?
+
+A JSON web token(JWT) is JSON Object which is used to securely transfer information 
+over the web(between two parties). It can be used for an authentication system and 
+can also be used for information exchange.
+The token is mainly composed of header, payload, signature. 
+
+
+
+5. What is axios interceptors ? explain with an example. 
+
+Axios interceptors are functions that Axios calls for every request.
+It has the ability to make HTTP requests from the browser and 
+handle the transformation of request and response data. 

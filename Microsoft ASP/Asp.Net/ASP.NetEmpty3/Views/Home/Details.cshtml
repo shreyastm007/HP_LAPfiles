@@ -1,0 +1,19 @@
+﻿
+
+@model ASP.NetEmpty3.ViewModel.HomeDetailsViewModel
+
+
+
+<div class="card text-dark bg-info mb-3" style="max-width: 30rem;">
+    <div class="card-header">Employee Details</div>
+    <div class="card-body">
+        <h5> Age: @Model.Employee.age</h5>
+        <h5> Id: @Model.Employee.id</h5>
+        <h5> Name: @Model.Employee.name</h5>
+    </div>
+    <div class="card-footer">
+        <button class="btn btn-success"> VIEW</button>
+        <button class="btn btn-primary">UPDATE </button>
+        <button class="btn btn-danger"> DELETE</button>
+        <button class="btn btn-dark"> DONE</button>
+    </div>

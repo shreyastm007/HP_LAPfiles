@@ -1,0 +1,16 @@
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.csproj.AssemblyReference.cache
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.AssemblyInfoInputs.cache
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.AssemblyInfo.cs
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.csproj.CoreCompileInputs.cache
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\DayDate.exe
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\DayDate.deps.json
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\DayDate.runtimeconfig.json
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\DayDate.runtimeconfig.dev.json
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\DayDate.dll
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\ref\DayDate.dll
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\bin\Debug\net5.0\DayDate.pdb
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.dll
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\ref\DayDate.dll
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.pdb
+C:\Users\107061\Desktop\.NET\DayDate\DayDate\obj\Debug\net5.0\DayDate.genruntimeconfig.cache

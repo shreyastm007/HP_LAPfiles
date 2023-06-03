@@ -1,0 +1,82 @@
+Assignment-2
+1==>JSX stands for JavaScript XML. 
+    It is simply a syntax extension of JavaScript. 
+    It allows us to directly write HTML in React (within JavaScript code).
+    It is easy to create a template using JSX in React.
+    the browser does not understand this JSX because it's not valid JavaScript code.
+    We use Babel compiler to convert the jsx code into the browser understandable code.
+
+    example:-const mobiles = ["one+", "realme", "redmi", "iphone", "samsung"];
+             const loopingData = mobiles.map((value) => {
+             return <h1>{value}</h1>;
+              });
+
+3==>CLASS COMPONENT
+    ---------------
+   The component name shuold be written in pascal case
+   must contain the class keyword.
+   render() method is mandatory.
+ ex:- class Home extends React.Component{
+      render(){
+        return(
+               <div>
+                    <h1>Hello</h1>
+               </div>
+              )};
+
+
+4==>Functional Components
+    =====================
+   The component name should be written in pascal case.
+   It has function keyword.
+   render() method will not be there in this component.
+  ex:- function Home(){
+         return(
+                <div>
+                     <h1>this is header<h1>
+                </div>
+               );
+             } 
+
+
+5==>PROPS(properties)
+    -----
+   Props are arguments passed into React components.
+   React Props are like function arguments in JavaScript and attributes in HTML.
+   ex:-
+       function Car(props) {
+       return <h2>I am a { props.brand }!</h2>;
+       }
+
+6==>DIFF B/W CLASS COMPO AND FUNC COMPO
+    
+                   FUNCTIONAL                                                           CLASS
+    There is no render method used in functional components.	      It must have the render() method returning JSX 
+    
+    before 16.8 it is called as stateless                             it is known as statefull
+
+    Hooks can be easily used in functional components to make         It requires different syntax inside a class component to implement hooks.
+    them Stateful.
+
+
+7==>DIFFING ALGO
+    
+   When we make changes or add data, React creates a new Virtual DOM and compares it with the previous one.
+   This comparison is done by Diffing Algorithm.
+
+   With the help of this Algorithm React figures out which components in the UI needs to be updated. 
+   This process is called diffing. The algorithm that is used for the diffing process is called as the diffing algorithm.
+
+   complexities:-
+   Generating the minimum number of operations to transform one tree into another have a complexity in the order of O(n^3) where n is the number of nodes in the tree. 
+   React relies on two assumptions to solve this problem that is in a linear time - O(n)
+
+8==>BABEL-> Babel converts the JSX code to javascript code
+            The browser cannot understand the jsx code, babel will convert the jsx 
+code into browser understandable code.
+ 
+9==>KEY ATTRIBUTE
+    A “key” is a special string attribute need to include when creating lists of elements in React.
+    we can say that keys are used to give an identity to the elements in the lists.
+
+    To avoid the warning like  Warning: Each child in a list should have a unique "key" prop.

@@ -1,0 +1,249 @@
+this keyword in arrow function-
+     inside the arrow function, the function does not have a this value of its own. 
+     They don't define their own context since it doesn't have its own this context. 
+     They inherit that from the parent scope whenever we call this. 
+     The parent scope will be the window scope.
+
+
+1==>The global clearTimeout() method cancels a timeout previously established by calling setTimeout().
+    If the parameter provided does not identify a previously established action, this method does nothing.
+    Syntax
+    clearTimeout(timeoutID)
+    ex:-
+
+    setTimeout()
+    The global setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires.
+    ex:-setTimeout(() => {
+        console.log("Delayed for 1 second.");
+        }, 1000)
+
+    clearInterval()
+    The global clearInterval() method cancels a timed, repeating action which was previously established by a call to setInterval().
+    If the parameter provided does not identify a previously established action, this method does nothing.
+
+   Syntax:
+         clearInterval(intervalID)
+
+   setInterval()
+   The setInterval() method, offered on the Window and Worker interfaces, repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.
+
+   This method returns an interval ID which uniquely identifies the interval, so you can remove it later by calling clearInterval().
+
+   Syntax:
+         setInterval(code)
+
+
+2==>
+    Array.from()
+    Creates a new Array instance from an array-like object or iterable object.
+    example:console.log(Array.from('foo'));
+            expected output: Array ["f", "o", "o"]
+
+    Array.isArray()
+    Returns true if the argument is an array, or false otherwise.
+    example:  Array.isArray([1, 2, 3]);  // true
+
+    Array.of()
+    Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
+    example:
+     
+    push()
+    Adds one or more elements to the end of an array, and returns the new length of the array.
+    ex:myArray.push(60, 70, 80, 90);
+       console.log(myArray);
+
+    pop()
+    Removes the last element from an array and returns that element.
+    console.log(myArray.pop());
+    
+    UNSHIFT()
+    unshift is used to add an element to the beginning of an array
+    it will take an element to add to the array as an argument,unshift method will return the length of an array
+    
+    let fruits = ["apple", "grapes", "banana", "mango"];
+    fruits.unshift("lemon");
+    console.log(fruits);
+   
+    shift()
+    shift is used to remove an element at the beginning
+    it will not take any arguments
+    shift will return the removed element as output
+
+    console.log(fruits.shift());
+    
+    concat()
+    concat method will join two or more arrays
+    concat method will return a joined array or a concatinated all array
+    concat method will not change your original array
+
+    let a = [20, 30, 40];
+    let b = [134, 43, 2,];
+    let c = [45, 6, 33];
+    let res = a.concat(b, c);
+    console.log(res, "array");
+
+
+    Flat()
+    flat method will make nested array as single array
+    console.log(arr1.flat());
+
+    JOIN()
+    join method will convert array to string
+    const cities = ["bengaluru", "Hubballi", "Mumbai", "dharawada"];
+    let string = cities.join(", ");
+    console.log(string);
+
+    findIndex()
+    findIndex method will take a callback function
+
+   let arrayData = [3, 4, 78, 65, 2];
+   let x = arrayData.findIndex((age) => {
+   return age > 18;
+   });
+   console.log(x);
+   it will only return the very first element that is satisfied the condition.
+
+
+   INDEXOF()
+   the indexOf method will return the first index position of the specified element
+   indexOf method return -1 if your array does not have the specified value
+   
+   let arrayData = [3, 4, 78, 65, 2]; 
+   console.log(arrayData1.indexOf(74));   not found returns -1
+   console.log(arrayData1.indexOf(78));   returns index position
+
+
+   MAP() 
+   map method takes a callback function 
+   it will modify the array.
+
+  Filter()
+  it doesnot modify the array it just filter
+
+  foreach()
+  let hobbies = ["cooking", "dancing", "singing", "cricket"];
+  hobbies.forEach(function (val, ind, arr) {
+  console.log(`${val}-${ind}`);
+});
+
+  includes()
+  console.log(hobbies.includes("cricket"));
+
+  find() method
+  find method will take one callback function and it returns the first element that matches the condition.
+  let arrayFind = [30, 4, 52, 4, 56, 7, 8];
+  const found = arrayFind.find((value) => value > 10);
+  console.log(found);
+
+  sort()
+  it will arrange an elements in an ascending and decsending order
+  by default sort() will return ascending order
+
+  let sortArray = [15, 18, 78, 13, 23, 44, 54, 32, 99, 100];
+  sortArray.sort()
+  console.log(sortArray);
+
+
+
+  splice method
+  we use splice method to add or remove the elements from the array
+  it will affect original array
+  if we are removing then it will return removed elements
+  syntax
+  splice(start index,no of elements to be removed,new elements to be add)
+
+  let spliceArray = [2, 4, 3, 7, 9, 5, 6, 8];
+  let splicedArray = spliceArray.splice(3, 2, 56, 78);
+  console.log(spliceArray);
+  console.log(splicedArray);
+
+  Slice method
+  slice method will return the new array
+  it will take 2 arguments
+  let sliceArray = ["CIT", "SSIT", "KIT", "NIST", "Christ"];
+
+  const data2 = sliceArray.slice(1);
+  console.log(data2);
+
+
+string Methods
+1.includes()
+ to find if a smaller string is present inside a larger one 
+ This can be done using the includes() method, which takes a single parameter — the substring you want to search for.
+ 
+2.The startsWith() 
+  method determines whether a string begins with the characters of a specified string, returning true or false as appropriate.
+
+3.The endsWith() 
+  method determines whether a string ends with the characters of a specified string, returning true or false as appropriate.
+
+4.The indexOf() 
+  method given one argument: a substring to search for, 
+  searches the entire calling string, and returns the index of the first occurrence of the specified substring. 
+  Given a second argument: a number, the method returns the first occurrence of the specified substring at an index greater than or equal to the specified number.
+
+5.The slice() 
+  method extracts a section of a string and returns it as a new string, without modifying the original string.
+   
+6.The toLowerCase()
+  method returns the calling string value converted to lower case.
+
+7.The toUpperCase() 
+  method returns the calling string value converted to uppercase (the value will be converted to a string if it isn't one).
+
+3==>
+   A deep copy means that all of the values of the new variable are copied and disconnected from the original variable.
+   A shallow copy means that certain (sub-)values are still connected to the original variable.
+   
+   DIFFERENCES
+   A deep copy of an object is a copy whose properties do not share the same references (point to the same underlying values) as those of the source object from which the copy was made.
+   As a result, when you change either the source or the copy, you can be assured you're not causing the other object to change too; 
+   that is, you won't unintentionally be causing changes to the source or copy that you don't expect.
+
+   A shallow copy of an object is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which the copy was made. 
+   As a result, when you change either the source or the copy, you may also cause the other object to change too 
+   so, you may end up unintentionally causing changes to the source or copy that you don't expect.
+
+4==>
+    example for deep copy
+    by using JSON object
+    const personCopyJson = JSON.parse(JSON.stringify(person));
+    console.log(personCopyJson);
+
+    example for shallow copy
+    let person = {
+    fname: "nayana",
+    lname: "S R",
+    moreDetails: {
+        bloodGroup: "A+",
+        gender: "female",
+    },
+    dob: "5th jan"
+   };
+
+  let personCopy = { ...person };//Shallow copy it will only the first layer
+  person.fname = "nuthana";
+
+  it will copy only the first layer.
+
+5==>
+    The Window.history read-only property returns a reference to the History object, which provides an interface for manipulating the browser session history (pages visited in the tab or frame that the current page is loaded in).
+ 
+    The Window interface represents a window containing a DOM document; the document property points to the DOM document loaded in that window.
+    
+    The Window.location read-only property returns a Location object with information about the current location of the document.
+
+    The Location interface represents the location (URL) of the object it is linked to. 
+    Changes done on it are reflected on the object it relates to. 
+    Both the Document and Window interface have such a linked Location, accessible via Document.location and Window.location respectively.
+  
+    The Window.navigator read-only property returns a reference to the Navigator object, 
+    which has methods and properties about the application running the script.
+    
+    The Navigator interface represents the state and the identity of the user agent. 
+    It allows scripts to query it and to register themselves to carry on some activities.
+    A Navigator object can be retrieved using the read-only window.navigator property.
+
+5==>
+    The Geolocation API allows the user to provide their location to web applications if they so desire.
+    For privacy reasons, the user is asked for permission to report location information.

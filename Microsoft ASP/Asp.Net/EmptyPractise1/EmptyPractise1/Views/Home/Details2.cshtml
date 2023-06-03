@@ -1,0 +1,18 @@
+﻿@*strictly typed view*@
+
+
+@model EmptyPractise1.MyViews.HomeDetailsViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; //relative path
+    ViewBag.Title = "Student Details ";
+}
+
+
+<div>
+
+    <h3> Age: @Model.student.Age</h3>
+    <h3> Id: @Model.student.id</h3>
+    <h3> Name: @Model.student.Name</h3>
+
+</div>

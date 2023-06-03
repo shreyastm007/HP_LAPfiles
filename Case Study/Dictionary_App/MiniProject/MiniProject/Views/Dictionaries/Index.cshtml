@@ -1,0 +1,56 @@
+﻿@model IEnumerable<MiniProject.Models.Dictionary>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<br/>
+
+
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.WordName)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+        <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WordName)
+                    </td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+        @Html.DisplayNameFor(model => model.WordName)*@
+
+<div class="container text-center">
+    <div class="row">
+
+@foreach (var item in Model) {
+        <div class="card text-dark bg-transparent mb-5" style="max-width: 25rem ;">
+            @*<img src="https://img.freepik.com/premium-photo/words-have-power-text-written-sticky-with-magnifier-pen-business-concept_376538-1705.jpg?w=2000"/>*@
+            <div class="card-header"> <h4>@Html.DisplayNameFor(model => model.WordName) :  @Html.DisplayFor(modelItem => item.WordName) </h4></div>
+            <div class="card-body">
+
+
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-dark">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+
+            </div>
+        </div>
+}
+        </div>
+    </div>

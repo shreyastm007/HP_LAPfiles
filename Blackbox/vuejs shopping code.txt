@@ -1,0 +1,61 @@
+<template>
+    <div id="gallery">
+        <div v-for="item in skus" :key="item.id">
+            <div @click="addToCart(item)">Order {{ item.name }}</div>
+        </div>
+        <div v-if="total">
+            <b>Total in cart: {{ total }}</b>
+            <div v-for="item in order" :key="item.id">
+                <div>{{ item.name }}</div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+new Vue({
+    el: '#gallery',
+
+    computed: {
+        total () {
+            return this.order.length;
+        }
+    },
+
+    data () {
+        return {
+            order: [],
+            
+            skus: [
+                {id : 1, name : 'Double King Sized Bed', image : '/images/beds/bigWhiteBed.jpg', price : 20000, description : 'A double king sized bed with a white interior and a black cover'},
+                {id : 2, name : 'Queen Sized Bed with Storage Drawers', image : '/images/beds/darkDrawerBed.jpg', price : 15000, description : 'A queen sized bed with a dark storage drawer'},
+                {id : 3, name : 'King Sized Bed', image : '/images/beds/fancyBed.jpg', price : 12000, description : 'A king sized bed with a white interior and a black cover'},
+                // ....
+            ],
+        }
+    },
+
+    mounted () {
+        // we could fill this.skus array with data from a json file/api call...
+    },
+
+    methods: {
+        addToCart: function(item) {
+            // Note: This will insert the sku as reference, 
+            // so when the skus are changed, the ordered item 
+            // will change with it. If you want a separate copy 
+            // of the item, you should clone the item object 
+            // before pushing it to the order array
+
+            this.order.push(item);
+        }
+    },
+
+    watch: {
+       total () {
+           console.log(this.total, this.order);
+       }
+    }
+});
+</script>
+

@@ -1,0 +1,143 @@
+REACT JS 		  
+===================================================
+Assignment 1 
+===================================================
+1. What is React JS ? 
+2. Why React ?
+3. What is diff bw library and framework ?
+4. React vs React DOM
+5. How to create react elements ?
+6. What is Virtual DOM ? 
+7. Real DOM vs Virtual DOM ? 
+8. What is Single Page Application ?
+9. What is Babel
+
+
+Assignment 2 
+===================================================
+1. What is JSX. Explain with an example
+2. WAP to fetch data from 
+https://jsonplaceholder.typicode.com/posts and 
+display title in web page. 
+3. Example for Class component 
+4. Example for Functional Component
+5. What are props ? 
+6. Difference bw Class and Functional Components 
+7. Explain Diffing Algorithm and Complexity of Algorithm
+8. What is Babel 
+9. Explain key attribute ? Why key attribute need to be used
+
+
+Assignment 3 
+===================================================
+
+1. Difference b/w props and state ?
+2. Example to pass data from parent to child 
+3. What is setState (). Explain 
+4. Explain writing events in Class component and functional component with an example ?
+
+===================================================
+Assignment 4 
+===================================================
+
+1. Example for passing data from child to parent component 
+2. TODO APP 
+3. Explain Lifecycle methods of Class component with an example 
+4. Example for conditional rendering style and classes and component
+5. localStorage Assignment
+6. setState is Asynchronous or not ? What is the proper way to update the state ?
+7. 5 programs to pass data from child to parent
+8. 2 programs to pass data from parent to child
+
+
+Assignment 5 
+===================================================
+
+1. Create 5 projects - 4
+	npx create-react-app appName
+	
+	create-react-app appName 
+	second-app
+	third-app
+	fourth-app 
+	fifth-app 
+	sixth-app 
+
+2. What are React Hooks ? 
+3. 3 examples for conditional rendering 
+4. Explain useState hook with an example for array and object 
+5. LocalStorage assignment using React JS 
+6. Explain the project structure of React App 
+
+===================================================
+Assignment 6 
+===================================================
+
+1. Explain Link, Route, BrowserRouter, withRouter 
+2. WAP to navigate programmatically 
+3. Explain import and export 
+4. LocalStorage assignment using React JS 
+5. TODO 
+6. Routing login and register with validation 
+7. What is Webpack ? 
+===================================================
+Assignment 7 
+===================================================
+1. What is props drilling ?
+2. What is the solution for props drilling ?
+3. What is context api, explain with an example
+
+
+1.what is validation ? what is Formik and Yup used for ?
+2. Which is the dev server used in React project ? 
+3. How to create axios instance ?
+4. What is Fragment ?
+5. What is ErrorBoundary ? How to handle errors in react js ? 
+6. What are Limitations of ErrorBoundary ? 
+	Answer :
+	
+	Error boundaries do not catch errors for:
+
+	Event handlers (learn more)	
+	Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+	Server side rendering
+	Errors thrown in the error boundary itself (rather than its children)
+7. Which errors can be handled in error boundaries ?
+
+
+1.What is Pure Component ? How to make class and functional components as Pure Component
+2. Which is the dev server used in React project ? (Answer - webpack-dev-server)
+3. How to create axios instance ?
+4. What is Fragment ?
+5. What is ErrorBoundary ? How to handle errors in react js ? 
+6. What are Limitations of ErrorBoundary ? 
+	Answer :
+	Error boundaries do not catch errors for:
+	Event handlers (learn more)	
+	Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+	Server side rendering
+	Errors thrown in the error boundary itself (rather than its children)
+7. Which errors can be handled in error boundaries ?
+8. What is code splitting and lazy loading ?
+===================================================
+1. What is HOC ? Explain with an example 
+2. What is useMemo ? Explain with an example
+3. What is useCallback ? Explain with an example 
+4. What is useReducer ? Explain with an example 
+5. What is reduce function ? Explain with an example
+===================================================
+1. Example for combination of useReducer and useContext 
+2. What is isNaN() ?
+3. How to create custom hooks ? Create two custom hooks ? ( By googling ) 
+4. What is render prop ?
+5. Difference bw useState and useReducer ? When to use which, explain ?
+===================================================
+1. Explain jwt with an example ?
+2. What is axios interceptors ? explain with an example 
+3. Write a test case using react-testing-library ?
+4. Project with routing concept (params based)? 
+5. Explain Switch component of react-router-dom with an example ?
+6. Explain the flow of redux ? 
+7. How to run react app in different port ? i.e., in specific port number
+8. difference between Redux, Flex and Mobx
+9. why Redux middleware’s are used.

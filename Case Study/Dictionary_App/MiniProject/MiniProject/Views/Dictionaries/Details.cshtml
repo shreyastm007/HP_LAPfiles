@@ -1,0 +1,52 @@
+﻿@model MiniProject.Models.Dictionary
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<hr />
+
+@*<div>
+
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.WordName)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.WordName)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.WordDefinition)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.WordDefinition)
+            </dd>
+        </dl>
+    </div>*@
+<div class="container text-center">
+    <div class="row">
+
+        <div class="card text-dark bg-warning mb-5" style="max-width: 25rem ;">
+            <div class="card-header"> <h5>@Html.DisplayNameFor(model => model.WordName)</h5></div>
+            <div class="card-body">
+                <h4> @Html.DisplayFor(model => model.WordName)</h4>
+
+            </div>
+        </div>
+        <div class="card text-dark bg-info mb-5" style="max-width: 25rem ;">
+            <div class="card-header"><h5>@Html.DisplayNameFor(model => model.WordDefinition) </h5></div>
+            <div class="card-body">
+
+                <h4>  @Html.DisplayFor(model => model.WordDefinition)</h4>
+
+</div>
+        </div>
+
+
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.Id"  class="btn btn-success" >Edit</a> 
+            <a asp-action="Index"  class="btn btn-primary" >Back to List</a>
+        </div>
+        </div>
+    </div>

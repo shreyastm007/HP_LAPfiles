@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <div id ="databinding">
+        <!-- <input placeholder ="enter email" v-bind:value='email' 
+            v-on:input=""setName /> -->
+        <input placeholder ="enter email" v-model='email'/>
+        <button v-on:click="reset"> reset email </button> 
+        <h3> Your email :{{email}}</h3>
+        
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
+

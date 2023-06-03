@@ -1,0 +1,25 @@
+.box{
+    border: 2px solid red;
+     display: inline-block;
+     width: 150px;
+     height: 150px;
+     margin: 2px;
+}
+#id3{
+    position:sticky;
+    top:3px;
+}
+#id2{
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+#id4{
+    position: absolute;
+    top: 34px;
+    right:34px;
+}
+.container{
+border:2px solid black;
+height: 3444px;
+}
